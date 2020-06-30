@@ -5,7 +5,7 @@ import math as m
 
 def main():
     print("This is just a test file")
-    x = np.linspace(0, 2*m.pi, 200)
+    x = np.linspace(0, 2*m.pi, 200) 
     y = np.sin(x)
 
     plt.plot(x, y)
